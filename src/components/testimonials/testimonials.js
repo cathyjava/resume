@@ -26,10 +26,10 @@ export default class Testimonials extends Component {
                 
 		<ul className="slides">
                   
-			{resumeData.testimonials && resumeData.testimonials.map((item)=>{
+			{resumeData.testimonials && resumeData.testimonials.map((item, index)=>{
                       	return(
                         
-				<li><blockquote><h1>{item.description}</h1>
+				<li key={'test'+ item+index}><blockquote><h1>{item.description}</h1>
 
                             	<p>{item.name}</p>
 

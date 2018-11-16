@@ -5,7 +5,8 @@
   "dependencies": {
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
-    "react-scripts": "2.1.1"
+    "react-scripts": "^2.1.1",
+    "react-particles-js": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,7 +15,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "rules": {
+      "jsx-a11y/anchor-is-valid": "off"
+    }
   },
   "browserslist": [
     ">0.2%",
