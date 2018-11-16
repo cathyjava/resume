@@ -45,7 +45,7 @@ let resumeData = {
      "education":[
     
           {
- "UniversityName":"University of FLorida",
+ "UniversityName":"University of Florida",
 
 	    "CityName": "Gainesville, FL",      
             "specialization":"Communication Sciences and Disorders, Pre-Med",
@@ -55,7 +55,7 @@ let resumeData = {
                 },
     
           {
- "UniversityName":"University of FLorida",
+ "UniversityName":"University of Florida",
 
 	    "CityName": "Gainesville, FL",      
             "specialization":"Pharmacy Technician Training Program",
