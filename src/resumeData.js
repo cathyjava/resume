@@ -261,7 +261,7 @@ let resumeData = {
 		  "imgurl":"images/portfolio/taichichigong.png"
 ,
 		  "url":"http://www.taichichigong.com/index.html",
-		  "summary":"Local business website",
+		  "summary":"A local business website crafted with Bootstrap/JS",
 		  "category":"website" },
   
   
@@ -274,7 +274,7 @@ let resumeData = {
 		  "imgurl":"images/portfolio/laceycomputer.jpg",
 		  "imgurlm":"images/portfolio/modals/m-laceycomputer.jpg" ,
 		  "url":"http://www.laceycomputer.net/",
-		  "summary":"Local business website",
+		  "summary":"A local business website crafted with Wordpress",
 
 		  "category":"website"},
  
@@ -290,7 +290,7 @@ let resumeData = {
 ,
 		  "imgurlm":"images/portfolio/modals/m-ducklegends.png" ,
 		  "url":"http://www.ducklegends.com/",
-		  "summary":"Start-up and web game I helped develop with a friend.",
+		  "summary":"Start-up and web game I helped develop with a friend using Three.js/JS",
 		  "category":"start-up, game development"}]
 ,
 
