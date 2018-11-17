@@ -61,7 +61,9 @@ export default class Porfolio extends Component {
 													{this.state.name ? <i className="fa fa-tag" /> : null}
 													<em style={{paddingLeft: '5px'}} className="info">{this.state.category}</em></span>
 													<br />
-													<a style={{textDecoration: 'italic'}} href={this.state.url}>{this.state.url}</a>
+													<a style={{textDecoration: 'italic'}} href={this.state.url} target="_BLANK" rel="noopener noreferrer">
+														{this.state.url}
+													</a>
 								</div>
 					</div>
 
