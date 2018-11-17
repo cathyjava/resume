@@ -158,7 +158,7 @@ let resumeData = {
       
 		  "specialization":"Temporary Volunteer / Summer Student Intern [Lab] (full-time: about 40 hours per week)",
       
-		  "timeframe":"June 2005 - August 20015",
+		  "timeframe":"June 2005 - August 2015",
        
 		  "Duties":"Established new filing system relieving workplace clutter and allotting more time to skilled work practices. Collected and prepared specimens for frozen sections or other necessary medical tests, completing proper documentation and shadowing."
     },
