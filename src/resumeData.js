@@ -248,7 +248,7 @@ let resumeData = {
 ,
 
     		  "url":"http://mychinese.org/",
-		  "summary":"Clearwater Chinese School is a wordpress website. I manage their site updates and email listserve.",
+		  "summary":"Clearwater Chinese School is a wordpress website. I manage their social media presence, site content, photo updates and email listserve.",
 		  "category":"website"},
 
 		{ "imghref":"#modal-02",
@@ -290,7 +290,7 @@ let resumeData = {
 ,
 		  "imgurlm":"images/portfolio/modals/m-ducklegends.png" ,
 		  "url":"http://www.ducklegends.com/",
-		  "summary":"Start-up and web game I helped develop with Christina Lacey.",
+		  "summary":"Start-up and web game I helped develop with a friend.",
 		  "category":"start-up, game development"}]
 ,
 

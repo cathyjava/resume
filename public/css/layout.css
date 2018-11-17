@@ -201,7 +201,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #8d8b8b;
+   font-size: 16px;
 }
 #about .profile-pic {
    position: relative;
@@ -284,7 +285,7 @@ ul#nav li.current a { color: #F06000; }
 /*----------------------------------------------*/
 
 .bars {
-	width: 95%;
+	width: 85%;
 	float: left;
 	padding: 0;
 	text-align: left;
@@ -295,9 +296,9 @@ ul#nav li.current a { color: #F06000; }
 }
 .bars li {
    position: relative;
-  	margin-bottom: 60px;
+  	margin-bottom: 30px;
   	background: #ccc;
-  	height: 42px;
+  	height: 22px;
   	border-radius: 3px;
 }
 .bars li em {
@@ -307,7 +308,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 2px;
 	font-weight: normal;
    position: relative;
-	top: -36px;
+	top: -20px;
 }
 .bar-expand {
    position: absolute;
@@ -316,10 +317,10 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #f75a04;
    display: inline-block;
-  	height: 42px;
-   line-height: 42px;
+  	height: 22px;
+   line-height: 22px;
    border-radius: 3px 0 0 3px;
 }
 
@@ -526,11 +527,17 @@ ul#nav li.current a { color: #F06000; }
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+   
+   outline: 5px solid #bbc1c145
 }
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
+}
+
+.portfolio-item img {
+   height: 130px;
 }
 
 /* overlay */
