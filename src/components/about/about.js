@@ -57,9 +57,9 @@ let resumeData = this.props.resumeData;
 
               </div>
 
-		<div class="columns download">
+		<div className="columns download">
                   <p>
-                     <a href={`${resumeData.resumesource}`} class="button"><i class="fa fa-download"></i>Download Resume</a>
+                     <a target="_BLANK" rel="noopener noreferrer" href={`${resumeData.resumesource}`} className="button"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
 

@@ -8,48 +8,27 @@ export default  class Resume extends Component {
 	return (
       
 		<section id="resume">
+			<div className="row education">
+				<div className="three columns header-col">
+					<h1><span>Education</span></h1>
+				</div>
 
-         
-		<div className="row education">
-
-            
-		<div className="three columns header-col">
-               			<h1><span>Education</span></h1>
-            
-		   </div>
-
-            
-	
-		<div className="nine columns main-col">
-              
-			{
-resumeData.education && resumeData.education.map((item)=>{
-                 			 return(
-                   
-			 <div className="row item">
-            
-	                 <div className="twelve columns">
-              
-		            <h3>{item.UniversityName}</h3>
-             
-	            		 <p className="info">
-
- 	                         {item.specialization}
-<span>&bull;</span> 
-				<em className="timeframe">{item.timeframe} 							</em></p>
-                         				 				<p>{item.Achievements}
- </p>
-
-                       </div>
-                    
+			<div className="nine columns main-col">
+				{resumeData.education && resumeData.education.map((item, index) => 
+					<div className="row item" key={'education' + item + index}>
+							<div className="twelve columns">
+								<h3>{item.UniversityName}</h3>
+								<p className="info">
+									{item.specialization}
+								<span>&bull;</span> 
+								<em className="timeframe">{item.timeframe}</em></p>
+								<p>{item.Achievements}</p>
+							</div>
+					</div>
+				)
+				}     
+			</div>
 		</div>
-                  )
-                })
-              }
-            
-	</div>
-         
-</div>
         
 
 
@@ -65,10 +44,10 @@ resumeData.education && resumeData.education.map((item)=>{
 		
 		<div className="nine columns main-col">
            
-   			{resumeData.work && resumeData.work.map((item) => {
+   			{resumeData.work && resumeData.work.map((item, index) => {
                   				return(
                     
-				<div className="row item">
+				<div className="row item" key={'work' + item + index}>
                  
 			        <div className="twelve columns">
                              						<h3>{item.CompanyName}</h3>
@@ -121,10 +100,10 @@ resumeData.education && resumeData.education.map((item)=>{
 	     	<ul className="skills">
  
 			{
-resumeData.skills && resumeData.skills.map((item) => {
+resumeData.skills && resumeData.skills.map((item, index) => {
                     			     return(
 
-		    		<li>
+		    		<li key={'skills' + item + index}>
                       
 		       		<span className={`bar-expand ${item.skillname.toLowerCase()}`}></span>
 		       		<em>{item.skillname}</em>

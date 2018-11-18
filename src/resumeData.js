@@ -1,36 +1,32 @@
 let resumeData = {
   "imagebaseurl":"http://cathyjavellana.com", 
-     "name": "Catherine Javellana",
-  "role": "Pharmacy Technician, Computer Technician, and Freelance Web Developer based in Florida",
+  "name": "Catherine Javellana",
+  "role": "Freelance Web Developer, Computer Specialist and Pharmacy Technician",
   "linkedinId":"Your LinkedIn Id",
   "skypeid": "Your skypeid",
-  
-     
-     "roleDescription": "",
-  
-     
-     "socialLinks":[
+  "roleDescription": "",
+  "socialLinks":[
       
 		{
-"name":"linkedin",
- "url":"https://www.linkedin.com/",
- "className":"fa fa-linkedin"
-},
+		"name":"linkedin",
+		"url":"https://www.linkedin.com/",
+		"className":"fa fa-linkedin"
+		},
       
 		{
-"name":"github",
- "url":"http://github.com/",
- "className":"fa fa-github"
- },
+		"name":"github",
+		"url":"http://github.com/",
+		"className":"fa fa-github"
+		},
       
 		{
-"name":"skype",
- "url":"http://skype.com",
- "className":"fa fa-skype"}
-    ],
+		"name":"skype",
+		"url":"http://skype.com",
+		"className":"fa fa-skype"}
+			],
  
      
-     "aboutme":"Hello! It's a pleasure to meet you. I'm Catherine, a Florida based pharmacy technician, computer technician and freelance web developer bringing local businesses to life. Currently, I work as a pharmacy technician at UF Health Shands in Gainesville, FL. In my spare time, I am working on computers or websites which has lead to some amazing collaborations with many people and organizations.",
+     "aboutme":"Hello! It's a pleasure to meet you. I'm Catherine, a Florida based pharmacy technician, computer specialist and freelance web developer bringing local businesses to life. Currently, I work as a pharmacy technician at UF Health Shands in Gainesville, FL. In my spare time, I am working on computers or websites which has lead to some amazing collaborations with many people and organizations.",
   
      "resumesource": "https://www.dropbox.com/s/v7o15h9cvm8bvab/resume%20cjavellana.pdf?dl=0",
 
@@ -45,7 +41,7 @@ let resumeData = {
      "education":[
     
           {
- "UniversityName":"University of FLorida",
+ "UniversityName":"University of Florida",
 
 	    "CityName": "Gainesville, FL",      
             "specialization":"Communication Sciences and Disorders, Pre-Med",
@@ -55,7 +51,7 @@ let resumeData = {
                 },
     
           {
- "UniversityName":"University of FLorida",
+ "UniversityName":"University of Florida",
 
 	    "CityName": "Gainesville, FL",      
             "specialization":"Pharmacy Technician Training Program",
@@ -94,7 +90,7 @@ let resumeData = {
 		  "specialization":"Web Master / Web Developer at http://cathyjavellana.com",
       		  "timeframe":"October 2012 - Present",
        
-		  "Duties":"Freelance web design & development for local businesses and start-ups. Set up hosting environments for clients, conduct competition analysis, design branding, marketing campaigns, and manage the entire user experience. Projects include work across e-commerce sites, responsive mobile apps, gaming and blog sites."    },
+		  "Duties":"Freelance web design & development for local businesses and start-ups. Set up hosting environments for clients, conducted competition analysis, designed branding, marketing campaigns, and managed the entire user experience. Projects include work across e-commerce sites, responsive mobile apps, gaming and blog sites."    },
 
 		{
  "CompanyName":"Clearwater Chinese School",
@@ -102,7 +98,7 @@ let resumeData = {
 		  "specialization":"Web Master / Web Developer at http://mychinese.org ",
       		  "timeframe":"October 2012 - Present",
       
-		  "Duties":"Manage social media presence and website for a non-profit Chinese language school."    },
+		  "Duties":"Managed the social media presence and website for a non-profit Chinese language school."    },
 		
 		{
  "CompanyName":"Lacey Computer",
@@ -112,7 +108,7 @@ let resumeData = {
 		  "timeframe":"October 2013 - Present",
  
       
-		  "Duties":"Manage social media presence and website. Hardware repair, software installation, hard drive imaging, debugging, and networking."
+		  "Duties":"Managed the social media presence and website. Also performed hardware repair, software installation, hard drive imaging, debugging, and troubleshooting of networking problems."
  }
 ,
 
@@ -162,7 +158,7 @@ let resumeData = {
       
 		  "specialization":"Temporary Volunteer / Summer Student Intern [Lab] (full-time: about 40 hours per week)",
       
-		  "timeframe":"June 2005 - August 20015",
+		  "timeframe":"June 2005 - August 2015",
        
 		  "Duties":"Established new filing system relieving workplace clutter and allotting more time to skilled work practices. Collected and prepared specimens for frozen sections or other necessary medical tests, completing proper documentation and shadowing."
     },
@@ -180,7 +176,7 @@ let resumeData = {
  
 
 
-     "skillsDescription":"I have amassed a broad range of skill sets throughout my career. Listed is my proficiency in various computer skills. A comprehensive list of all skill sets can be seen on my downloaded resume featured above. I look forward to utilizing these and learning many more in my next endeavor with you and your organization.",
+     "skillsDescription":"I'm a self taught web developer with an insatiable curiosity. I enjoy learning new frameworks and design patterns. Listed below are my proficiencies: ",
   
           "skills":[
  
@@ -252,7 +248,7 @@ let resumeData = {
 ,
 
     		  "url":"http://mychinese.org/",
-		  "summary":"Clearwater Chinese School is a wordpress website. I manage their site updates and email listserve.",
+		  "summary":"Clearwater Chinese School is a wordpress website. I manage their social media presence, site content, photo updates and email listserve.",
 		  "category":"website"},
 
 		{ "imghref":"#modal-02",
@@ -265,7 +261,7 @@ let resumeData = {
 		  "imgurl":"images/portfolio/taichichigong.png"
 ,
 		  "url":"http://www.taichichigong.com/index.html",
-		  "summary":"Local business website",
+		  "summary":"A local business website crafted with Bootstrap/JS",
 		  "category":"website" },
   
   
@@ -278,7 +274,7 @@ let resumeData = {
 		  "imgurl":"images/portfolio/laceycomputer.jpg",
 		  "imgurlm":"images/portfolio/modals/m-laceycomputer.jpg" ,
 		  "url":"http://www.laceycomputer.net/",
-		  "summary":"Local business website",
+		  "summary":"A local business website crafted with Wordpress",
 
 		  "category":"website"},
  
@@ -294,7 +290,7 @@ let resumeData = {
 ,
 		  "imgurlm":"images/portfolio/modals/m-ducklegends.png" ,
 		  "url":"http://www.ducklegends.com/",
-		  "summary":"Start-up and web game I helped develop with Christina Lacey.",
+		  "summary":"Start-up and web game I helped develop with a friend using Three.js/JS",
 		  "category":"start-up, game development"}]
 ,
 
