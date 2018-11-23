@@ -14,7 +14,7 @@ export default class Porfolio extends Component {
 	}
 
 	switchPreview = (item) => {
-		this.setState({url: item.url, imgURL: item.imgurl, name: item.name, summary: item.summary, category: item.category})
+		this.setState({url: item.url, imgURL: item.imgurl, imgURLm:item.imgurlm, name: item.name, summary: item.summary, category: item.category})
 	}
 
 	render() {
@@ -52,7 +52,7 @@ export default class Porfolio extends Component {
 
 					<div style={{textAlign: 'center', height: '200px'}}>
 								<a href={this.state.url} target="_BLANK" rel="noopener noreferrer">
-									<img style={{height: '200px', display: 'inline'}} src={this.state.imgURL} alt="" />
+									<img style={{height: '200px', display: 'inline'}} src={this.state.imgURLm} alt="" />
 								</a>
 								<div style={{display: 'inline-block', maxWidth: '500px', textAlign: 'left', marginLeft: '20px'}}>
 													<h4>{this.state.name}</h4>
