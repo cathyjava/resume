@@ -34,9 +34,8 @@ export default class Header extends Component {
 		<div className="row banner">
             
 		<div className="banner-text">
-
-			<Particles height={200} width={800} />
-			<p />
+<div id="particles-js" className="particles"><Particles className="particles-canvas" width={'100%'} height={787} style={{width: '100%', height: '100%'}} /></div>
+			
 		   <h1 className="responsive-headline">I am {resumeData.name}.</h1>
 
 		   <h3>

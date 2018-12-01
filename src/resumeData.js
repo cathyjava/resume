@@ -103,7 +103,7 @@ let resumeData = {
 		{
  "CompanyName":"Lacey Computer",
       
-		  "specialization":"Web Master / Web Developer / Computer Technician",
+		  "specialization":"Web Master / Web Developer / Computer Specialist",
       
 		  "timeframe":"October 2013 - Present",
  
@@ -158,20 +158,11 @@ let resumeData = {
       
 		  "specialization":"Temporary Volunteer / Summer Student Intern [Lab] (full-time: about 40 hours per week)",
       
-		  "timeframe":"June 2005 - August 2015",
+		  "timeframe":"June 2005 - August 2005",
        
 		  "Duties":"Established new filing system relieving workplace clutter and allotting more time to skilled work practices. Collected and prepared specimens for frozen sections or other necessary medical tests, completing proper documentation and shadowing."
-    },
- 
-		
-		{
- "CompanyName":"Mercy Hospital",
-      
-		  "specialization":"Volunteer [Unit Clerk] (PRN: about 8 hours per week)",
-      		  "timeframe":"April 2004 - May 2004",
- 
-       
-		  "Duties":"Assembled new patient charts and paperwork. Assured patients and visitors were well attended in a timely manner or redirected to appropriate personnel. "   }],
+    }
+],
  
  
 
@@ -243,12 +234,12 @@ let resumeData = {
 		  "description":"wordpress website",
 
 		  "imgid":"modal-01",
-		  "imgurlm":"images/portfolio/modals/m-clearwater chinese school.png" ,     
+		  "imgurlm":"images/portfolio/modals/m-clearwater chinese school.gif" ,     
 		  "imgurl":"images/portfolio/clearwater chinese school.png"
 ,
 
     		  "url":"http://mychinese.org/",
-		  "summary":"Clearwater Chinese School is a wordpress website. I manage their social media presence, site content, photo updates and email listserve.",
+		  "summary":"Local non-profit language school website created with wordpress.",
 		  "category":"website"},
 
 		{ "imghref":"#modal-02",
@@ -288,7 +279,7 @@ let resumeData = {
       		  "imgid":"modal-04",
 		  "imgurl":"images/portfolio/ducklegends.png"
 ,
-		  "imgurlm":"images/portfolio/modals/m-ducklegends.png" ,
+		  "imgurlm":"images/portfolio/modals/m-ducklegends.jpg" ,
 		  "url":"http://www.ducklegends.com/",
 		  "summary":"Start-up and web game I helped develop with a friend using Three.js/JS",
 		  "category":"start-up, game development"}]
@@ -326,11 +317,9 @@ let resumeData = {
 			"expiration":"06/05/2017"    }
 ],
 	
-	"contact us":[
-
-		{"lead":"I would love the opportunity to learn more about how I can help you and your organization achieve your goals. Feel free to contact me about your exciting opportunity."}
+	"ContactUs":"I would love the opportunity to learn more about how I can help you and your organization achieve your goals. Feel free to contact me about your exciting opportunity."
 		   
-]
+
 }
 
 export default resumeData
