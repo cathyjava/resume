@@ -251,7 +251,7 @@ let resumeData = {
 		  "imgurlm":"images/portfolio/modals/m-taichichigong.png" ,      
 		  "imgurl":"images/portfolio/taichichigong.png"
 ,
-		  "url":"http://www.taichichigong.com/index.html",
+		  "url":"http://www.taichichigong.com/",
 		  "summary":"A local business website crafted with Bootstrap/JS",
 		  "category":"website" },
   
