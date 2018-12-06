@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "es6-object-assign": "^1.1.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
-    "react-scripts": "^2.1.1",
-    "react-particles-js": "^2.3.0"
+    "react-particles-js": "^2.4.0",
+    "react-scripts": "^2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
