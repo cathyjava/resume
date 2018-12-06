@@ -13,7 +13,9 @@ export default class Portfolio extends Component {
 		}
 	}
 
+
 switchPreview = (item) => {
+
 		this.setState({url: item.url, imgURL: item.imgurl, imgURLm:item.imgurlm, name: item.name, summary: item.summary, category: item.category})
 	}
 
