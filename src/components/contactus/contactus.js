@@ -9,7 +9,7 @@ export default class ContactUs extends Component{
             <h1><span>Get In Touch</span></h1>
           </div>
           <div className="ten columns">
-            <p className="lead">{resumeData.lead}
+            <p className="lead">{resumeData.ContactUs}
             </p>
           </div>
         </div>
