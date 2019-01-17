@@ -41,8 +41,6 @@ header .particles {
 
   opacity: .35;
 
-
-
 }
 
 header .particles-canvas {
@@ -415,6 +413,17 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
+.gimp {
+  	width: 70%;
+  	-moz-animation: illustrator 2s ease;
+  	-webkit-animation: illustrator 2s ease;
+}
+.balsamiq {
+  	width: 70%;
+  	-moz-animation: illustrator 2s ease;
+  	-webkit-animation: illustrator 2s ease;
+}
+
 @-moz-keyframes javascript {
   0%   { width: 0px;  }
   100% { width: 70%;  }
@@ -471,6 +480,15 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
+@-moz-keyframes gimp {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes balsamiq {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+
 @-webkit-keyframes javascript {
   0%   { width: 0px;  }
   100% { width: 70%;  }
@@ -523,7 +541,14 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-
+@-webkit-keyframes gimp {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes balsamiq {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */

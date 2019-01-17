@@ -34,7 +34,9 @@ switchPreview = (item) => {
 							
 									<div key={'portoflio' + item + index} className="columns portfolio-item">
 												<div className="item-wrap">		
-														<div onMouseDown={() => this.switchPreview(item)}>				
+
+														<div onClick={() => this.switchPreview(item)}>				
+
 					
 
  										<img alt="" src={`${item.imgurl}`} className="item-img"/>
@@ -42,9 +44,12 @@ switchPreview = (item) => {
 																				<div className="portfolio-item-meta">		
 																				<h5>{item.name}</h5>		
 																				<p>{item.description}</p>
-																		    <div className="link-icon">
-																			  <a href="#openModal"><i className="icon-plus"/></a>
-																		</div>
+
+																  <div className="link-icon">
+					<a href="#openModal"><i className="icon-plus"/></a>
+					
+						</div>
+
 														</div>
 												</div>
 

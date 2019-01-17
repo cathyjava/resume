@@ -220,7 +220,11 @@ let resumeData = {
 		  {
  "skillname":"Illustrator"
 },
-		    ],
+ {
+ "skillname":"GIMP"
+}, {
+ "skillname":"Balsamiq"
+},		    ],
   
 
    
@@ -240,7 +244,9 @@ let resumeData = {
 
     		  "url":"http://mychinese.org/",
 		  "summary":"Local non-profit language school website created with wordpress.",
-		  "category":"website"},
+
+		  "category":"website, wordpress"},
+
 
 		{ "imghref":"#modal-02",
 		  "name":"Tai Chi Chi Gong",
@@ -267,7 +273,7 @@ let resumeData = {
 		  "url":"http://www.laceycomputer.net/",
 		  "summary":"A local business website crafted with Wordpress",
 
-		  "category":"website"},
+		  "category":"website, wordpress"},
  
    
 		{
@@ -282,7 +288,21 @@ let resumeData = {
 		  "imgurlm":"images/portfolio/modals/m-ducklegends.jpg" ,
 		  "url":"http://www.ducklegends.com/",
 		  "summary":"Start-up and web game I helped develop with a friend using Three.js/JS",
-		  "category":"start-up, game development"}]
+		  "category":"start-up, game development"},
+
+{
+ "imghref":"#modal-05",
+		  "name":"Dapper Dave's Dojo",
+      
+		  "description":"hi-fidelity mockup",
+
+      		  "imgid":"modal-05",
+		  "imgurl":"images/portfolio/dapper daves mockup.jpg"
+,
+		  "imgurlm":"images/portfolio/modals/m-dapper daves mockup.jpg" ,
+		  "url":"https://www.dropbox.com/s/wyhsa71l60shvnb/dapperdavesdojo.pdf?dl=0",
+		  "summary":"hi-fidelity mockup created with Balsamiq 3",
+		  "category":"mockups, Balsamiq"}]
 ,
 
   
@@ -300,7 +320,7 @@ let resumeData = {
       
 			"name":"License # RPT 50795"
 ,
-			"expiration":"12/31/2018"    },
+			"expiration":"12/31/2020"    },
   
 		{
   "description":"PTCB Certification",
