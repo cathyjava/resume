@@ -244,7 +244,9 @@ let resumeData = {
 
     		  "url":"http://mychinese.org/",
 		  "summary":"Local non-profit language school website created with wordpress.",
+
 		  "category":"website, wordpress"},
+
 
 		{ "imghref":"#modal-02",
 		  "name":"Tai Chi Chi Gong",
